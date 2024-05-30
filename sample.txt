@@ -1,0 +1,43 @@
+// This is a sample TerraCode program to test the lexer
+
+main {
+    con x = 10; // Integer constant
+    Fl y = 20.5; // Real constant
+    Ch z = 'A'; // Character constant
+    St s = "Hello, TerraCode!"; // String constant
+
+    // Arithmetic operations
+    x = x + 1;
+    y = y - 2.5;
+    z++; // Increment operator on character
+    x--; // Decrement operator on integer
+
+    // Relational operations
+    agar (x < 15) {
+        likhyn("x is less than 15");
+    }
+
+    // Using logical operators
+    agar (x > 5 & y < 25) {
+        likhyn("Both conditions are true");
+    }
+
+    // Loop example with increment and decrement
+    mqsd k lya (con i = 0; i < 5; i++) {
+        likhyn(i);
+    }
+
+    jab tak (x > 0) {
+        x--;
+        likhyn(x);
+    }
+
+    // Comments
+    // Single line comment
+    /*
+    This is a multi-line comment
+    */
+    
+    // End of the main function
+    return 0;
+}
